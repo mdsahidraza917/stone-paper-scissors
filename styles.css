@@ -8,7 +8,7 @@ body{
     font-family: Arial, sans-serif;
 }
 .container{
-    height: 30vh;
+    height: 35vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -41,30 +41,30 @@ body{
     padding: 10px;
     text-align: center;
     border-radius: 10px;
-    width: 135px;
+    width: 9vw;
     margin: 12px;
     margin-right: 18px;
 
 }
 .score-box p{
     margin-bottom: 10px;
-    font-size: 18px;
+    font-size: 1.2vw;
     color: #656565;
 }
 .computer-score,.your-score{
-    font-size: 54px;
+    font-size: 4vw;
     font-weight: bold;
 
 }
 .container-2{
     position: relative;
-    width: 425px;
-    height: 425px;
+    width: 30vw;
+    height: 30vw;
 }
 .button{
   cursor: pointer;
-    width: 150px;
-    height: 150px;
+    width: 11vw;
+    height: 11vw;
     background-color: white;
     border-radius: 70%;
     display: flex;
@@ -104,23 +104,23 @@ body{
     z-index: 1;
   }
   .line-rock-scissors {
-    top: 0;
+    top: -5%;
     left: 50%;
-    height: 160px;
+    height: 15vw;
     transform: rotate(90deg);
   }
 
   .line-rock-paper {
    bottom: 25%;
    left: 30%;
-    height: 200px;
+    height: 15vw;
     transform: rotate(-210deg);
   }
 
   .line-scissors-paper {
     bottom: 25%;
     right: 30%;
-    height: 200px;
+    height: 15vw;
     transform: rotate(210deg);
   }
   #rules-button {
@@ -157,11 +157,11 @@ body{
   }
   .popup-container{
     position: fixed;
-    top:30%;
+    top:32%;
     right:3%;
     background-color: #004429;
-    width: 400px;
-    padding: 20px;
+    width: 26vw;
+    padding: 1vw;
     border: 12px solid white;
     border-radius: 15px;
     display: none;
@@ -225,7 +225,7 @@ body{
   }
   .result-message {
     padding-top:100px ;
-    font-size: 24px;
+    font-size: 1.5vw;
     margin: 0 75px;
     text-align: center;
     color: white;
@@ -309,7 +309,7 @@ body{
 }
 
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .headline-score {
       flex-direction: row;
       width: 70%; 
@@ -356,7 +356,7 @@ body{
   height: 150px;
 
 }
-}
+} */
 
 
 
