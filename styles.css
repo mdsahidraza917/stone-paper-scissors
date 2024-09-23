@@ -18,7 +18,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+    width: 60%;
     border: 2px solid #FFFFFF;
     border-radius: 20px;
 }
@@ -221,6 +221,7 @@ body{
     position: relative;
     width: 150px;
     height: 150px;
+    margin: auto;
   }
   .result-message {
     padding-top:100px ;
@@ -306,6 +307,60 @@ body{
   border-radius: 100%;
   animation: ripple 0.7s linear infinite;
 }
+
+
+@media (max-width: 1024px) {
+  .headline-score {
+      flex-direction: row;
+      width: 70%; 
+  }
+  .container-2 {
+    width: 250px;
+    height: 250px;
+}
+.button {
+  width: 80px;
+  height: 80px;
+ border: 5px solid;
+}
+.rock {
+  border-color: #0074B6; 
+}
+.scissors {
+  border-color: #BD00FF;
+}
+.paper {
+  border-color: #FFA943; 
+}
+.line {
+  position: absolute;
+  width: 10px;
+  background-color:rgba(0, 0, 0, 0.64);
+  z-index: 1;
+}
+.line-rock-scissors {
+  top: 0;
+  left: 47%;
+  height: 100px;
+}
+
+.line-rock-paper {
+ bottom: 25%;
+ left: 25%;
+  height: 150px;
+}
+
+.line-scissors-paper {
+  bottom: 25%;
+  right: 25%;
+  height: 150px;
+
+}
+}
+
+
+
+
 
 
 
